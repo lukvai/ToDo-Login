@@ -45,7 +45,7 @@ task.onreadystatechange = function(){
                 var taskValue = e.target.parentElement.parentElement.cells[1].innerText;
                 var form = '<form class="col-md-4" style="padding-left: 0; margin: 15px 0">';
                 form += '<div class="form-group">'
-                form += '<input type="text" class="form-control" name="editID" placeholder="Subject" id="editID" value="Task ID '+IDValue+'"" readonly>';
+                form += '<input type="text" class="form-control" name="editID" placeholder="Subject" id="editID" value="'+IDValue+'"" readonly>';
                 form +='</div>';
                 form += '<div class="form-group">'
                 form += '<input type="text" class="form-control" name="editSubject" placeholder="Subject" id="editSubject" value="'+taskValue+'"" required pattern="[aA-zZ0-9_ ]{3,30}">';

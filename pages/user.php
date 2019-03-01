@@ -20,17 +20,22 @@ fclose($fp);
 
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>User</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
 
   <body>
-    <div id="container" class="container">
-      <div id="header">
-        <a href="../index.php?q=logout" class="btn btn-success">LOGOUT</a>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal"><i class="fas fa-tasks"></i> Task Manager</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+        </nav>
+        <a href="../index.php?q=logout" class="btn btn-primary">Logout</a>
       </div>
+    </div>
+
+    <div id="container" class="container">
       <div id="main-body">
         <h1>
             User
